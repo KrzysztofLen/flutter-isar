@@ -4,3 +4,7 @@
 *.cc linguist-detectable=false
 *.txt linguist-detectable=false
 *.h linguist-detectable=false
+ios/* linguist-vendored
+android/* linguist-vendored
+macos/* linguist-vendored
+build/* linguist-vendored
