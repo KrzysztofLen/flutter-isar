@@ -61,6 +61,7 @@ class IsarService {
         .address((address) =>
             address.postcodeEqualTo(postCode).and().streetContains(street))
         .findAll();
+
     return result;
   }
 
@@ -77,6 +78,16 @@ class IsarService {
         .findAll();
     print(result);
     return result;
+  }
+
+  Future<Stream<Contact?>> watchContact(int id) async {
+    final isar = await db;
+
+    Stream<Contact?> userChanged = isar.contacts.watchObject(id);
+    userChanged.listen((newUser) {
+      print('User changed: ${newUser?.firstName}');
+    });
+    return userChanged;
   }
 
   Stream<void> watchContacts() async* {
