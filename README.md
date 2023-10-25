@@ -1,16 +1,5 @@
-# flutter_isar
+# Building a Flutter application with a local ISAR database 📱
 
-A new Flutter project.
+ISAR is a high-performance, fully async NoSQL, and schema first database for Flutter. Isar was started as a replacement for Hive. By incorporating ISAR into your Flutter project, you'll be able to manage and manipulate data with queries, multi-entry indexes and JSON support.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Building a Flutter application with a local ISAR database 📱](https://www.fun4code.com/flutter-isar-db/)
